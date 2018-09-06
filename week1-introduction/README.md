@@ -28,6 +28,7 @@
     
     
 2. Fraction
+    
     **The problem** here is to find the highest possible fraction that can't be simplified.
     we know that the number *n* is the sum of 2 numbers. And the numerator must be smaller than the denominator.
     we need to search for the highest numerator and denominator, so we can choose what numbers to be printed out.
@@ -41,6 +42,19 @@
        
 3. Diverse Team
 
+   This is the hardest question in this weekly submission IMO.
+   so **the problem** in this question is to determine wether we can make or cant make a team from the numbers that we put inside the      question.
+   We need to input how many students there are```n```, the size of the team```k```, on the next line, we need to input the level of        "intelligence" based on how much students we typed in. 
+   we need to put a formula where it can know out the location of the students in the not-so-array list (because its close to array, and    have a personal location for example: if we input 12 12 13 14 12, the location is 0 1 2 3 4)
+   >location=list(set(intelligence))
+   if its suitable to make a team
+   >print YES, for in range (team)
+   
+   >and print intellegence.index (the location number)
+   
+   if its not suitable to make a team
+   
+   >print NO
        
        
        
