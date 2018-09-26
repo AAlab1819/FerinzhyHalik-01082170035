@@ -1,0 +1,1 @@
+buttons = int(input())push = buttonsfor i in range (1,buttons):    push += i*(buttons-i)print(push)
