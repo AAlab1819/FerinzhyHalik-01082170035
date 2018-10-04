@@ -8,7 +8,7 @@ And you have to print the depth of the tree.
 ```
 Complexity(Worst Case) : O(n log n)
 
-## Christmas Spruce (913B)
+## Christmas Spruce (913B).
 
 ```
 The first line contains one integer n (how much is the vertices)\
@@ -17,4 +17,15 @@ We are asked to find out if the rooted tree is a spruce if its every non-leaf ve
 
 ```
 
-Complexity : Worst Case -> O(n log n)
+Complexity(Worst Case):O(n log n)
+
+## Registration system (4C).
+```
+The first line contains number n
+The following n lines contain the requests to the system
+Each request is a non-empty line, and consists of not more than 32 characters, which are all lowercase Latin letters.
+
+using map of <string,int>, we can record the data of the usernames that we inputted
+```
+
+Complexity(Worst Case): O(n log n)
